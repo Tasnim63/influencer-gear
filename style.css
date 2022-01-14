@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+  
     font-family: 'Poppins', sans-serif;
 
 }
@@ -11,18 +11,19 @@
     list-style-type: none;
     margin: 40px 80px;
     font-size: 40px;
+  
     padding: 20px 30px;
 }
-.top-banner{
-display: flex;
-}
 .top-banner-item{
-    width: 50%;
+    display: flex;
+}
+.heading{
+    width: 60%;
 }
 .heading h1{
     margin: 40px 80px;
-    font-size: 30pxpx;
-    padding: 40px 45px;
+    font-size: 30px;
+ padding: 20px 30px;
     font-size: 85px;
     color: rgb(31, 27, 27);
 }
@@ -34,10 +35,10 @@ display: flex;
 .top-banner .btn{
     padding: 25px 80px;
     border: 0;
-    background: rgb(175, 79, 79);
+    background: rgb(153, 43, 43);
     font-weight: bold;
-    color: wheat;
-    cursor: pointer;
+    color:white;
+    font-size: 20px;
     border-radius: 50px;
     margin: 10px 115px;
 
@@ -48,4 +49,15 @@ display: flex;
     height: 600px;
     width: 500px;
 
+}
+/*******************collection part style */
+.popular-collection h1{
+    text-align: center;
+    font-size: 50px;
+ margin-top: 150px;
+ margin-bottom: 5px;
+ color: rgb(49, 47, 47);
+}
+.card-describtion{
+    padding: 10px;
 }
