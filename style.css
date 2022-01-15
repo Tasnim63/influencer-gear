@@ -85,7 +85,31 @@
 .card-describtion{
     padding: 15px;
 }
+.card-describtion h2{
+    font-size: 28px;
 
+}
+.card-describtion h3{
+    font-size: 20px;
+    color: rgb(32, 29, 29);
+    
+}
+.star-area{
+    display: flex;
+}
+.star .fa-star{
+    color: goldenrod;
+}
+.star .fa-star-half-alt{
+    color: goldenrod;  
+}
+.point p{
+    margin-left: 20px;
+    color: grey;
+}
+.card-describtion p{
+    color: rgb(87, 84, 84);
+}
 
 
 
