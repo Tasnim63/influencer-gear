@@ -59,11 +59,14 @@
  margin-bottom: 35px;
  color: rgb(49, 47, 47);
 }
-
-
-.card-area{
+.container{
     width: 975px;
     height: 1686px;
+ 
+}
+
+.card-area{
+   
      padding: 20px;
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
@@ -109,6 +112,17 @@
 }
 .card-describtion p{
     color: rgb(87, 84, 84);
+}
+.see-more{
+    margin-right: 550px;
+}
+.see-more p{
+  float: right;
+    color: grey;
+padding: 5px;
+    font-size: 20px;
+    
+  
 }
 
 
